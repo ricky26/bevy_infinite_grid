@@ -9,8 +9,6 @@ var<uniform> view: View;
 var<uniform> mesh: Mesh;
 
 #ifdef SKINNED
-@group(1) @binding(1)
-var<uniform> joint_matrices: SkinnedMesh;
 #import bevy_pbr::skinning
 #endif
 

@@ -154,6 +154,7 @@ impl SpecializedMeshPipeline for GridShadowPipeline {
                 "MAX_CASCADES_PER_LIGHT".to_string(),
                 MAX_CASCADES_PER_LIGHT as u32,
             ),
+            "MESH_BINDGROUP_1".into(),
         ];
 
         bind_group_layouts.push(setup_morph_and_skinning_defs(
